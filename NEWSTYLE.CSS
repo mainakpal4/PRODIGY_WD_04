@@ -1,0 +1,261 @@
+
+        element.style {
+            background: white;
+            width: 70vw;
+            height: 2px;
+            margin: 50px 0;
+
+        }
+
+        * {
+            margin: 0%;
+            padding: 0;
+        }
+
+        body {
+            background-color: hwb(242 0% 88%);
+            color: aliceblue;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: hwb(250 16% 40%);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(176, 176, 249);
+            font-size: large;
+        }
+
+
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 60px 0;
+        }
+
+        .firstsection div {
+            width: 30%;
+        }
+
+        .leftsection {
+
+            font-size: 2rem;
+            margin: 30px 0;
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 50px;
+
+            /* background-color: red; */
+        }
+
+        .purple {
+            color: rgb(167, 142, 245);
+            width: 300px;
+        }
+
+        #element {
+            color: rgb(167, 142, 245);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .thirdsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .fourthsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 101vh;
+        }
+
+        .secondsection h1 {
+            font-size: xx-large;
+
+        }
+
+        .thirdsection h1 {
+            font-size: xx-large;
+
+        }
+
+        .fourthsection h1 {
+            font-size: xx-large;
+
+        }
+
+
+
+        .secondsection .box {
+
+            background-color: white;
+            width: 84vw;
+            height: 7px;
+            margin: 56px 0;
+            display: flex;
+
+
+        }
+
+        .thirdsection .extra {
+
+            background-color: white;
+            width: 84vw;
+            height: 7px;
+            margin: 56px 0;
+            display: flex;
+
+
+        }
+
+        .thirdsection .skills {
+
+            background-color: white;
+            width: 84vw;
+            height: 7px;
+            margin: 56px 0;
+            display: flex;
+
+
+        }
+
+
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 90px;
+
+        }
+
+        .thirdsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 90px;
+
+        }
+
+        .fourthsection .vertical {
+            height: 95px;
+            width: 1px;
+            background-color: white;
+            margin: 0 90px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+
+        .vertical-disc {
+            position: relative;
+            top: 86px;
+            color: rgb(206, 201, 201);
+            width: 150px;
+            font-size: 13px;
+        }
+
+        footer {
+            background-color: rgb(75, 80, 192);
+            height: 230px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {}
+
+        .reserved {
+            color: rgb(192, 186, 186);
+            text-align: center;
+        }
+
+        .leftsection .buttons {
+            padding: 49px;
+        }
+
+        .btn {
+            cursor: pointer;
+            background: #5d0dbe;
+            color: white;
+            border: white;
+            border: rad;
+            border-radius: 4px;
+            font-size: 18px;
+        }
+
+        .a {
+            cursor: pointer;
+            background: #5d0dbe;
+            color: white;
+            border: white;
+            border: rad;
+            border-radius: 4px;
+            font-size: 18px;
+        }
+
+        a:link {
+            color:  pink;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(148, 50, 218);
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rgb(241, 241, 147);
+            background-color: transparent;
+            text-decoration: underline;
+        }
+    
